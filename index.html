@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bud's Bizarre - Unique Finds for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bud's Bizarre</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product" onclick="showProductDetails('Product 1', 'Description of Product 1.')">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" onclick="showProductDetails('Product 2', 'Description of Product 2.')">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products here -->
+        </section>
+        
+        <section id="about">
+            <h2>About Bud's Bizarre</h2>
+            <p>Welcome to Bud's Bizarre, your go-to place for unique finds and exceptional products. Our mission is to provide you with an eclectic collection that you won't find anywhere else.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bud's Bizarre. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
